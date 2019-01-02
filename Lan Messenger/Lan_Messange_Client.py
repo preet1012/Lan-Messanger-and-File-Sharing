@@ -1,6 +1,5 @@
 import socket
 import os
-import subprocess      #starts the shell
 
 def transfer(s,path):
     if os.path.exists(path):
